@@ -18,3 +18,22 @@ body {
      min-height: 100%; }
 .new_class {
      background: #FF0; }
+
+
+     
+     #flexblok{
+          display: flex;
+          height: 100vh;
+          background-color: blue;
+          justify-content: center;
+      }
+      
+      #qwerty{
+          background-color: red;
+          color: seashell;
+          font-size: 40px;
+          text-align: center;
+          padding-top: 400px;
+          padding-left: 40px;
+          padding-right: 40px;
+      }

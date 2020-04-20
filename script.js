@@ -1,3 +1,11 @@
+
+
+var container = document.getElementById("demo");
+var btn1 = document.getElementById("myFun");
+var btn2 = document.getElementById("SuperButton");
+var btn3 = document.getElementById("button");
+
+
 function myFunction(){    
     location.replace("https://www.w3schools.com")
   }
@@ -17,6 +25,14 @@ window.onload = function() {
         }
     }
 }
+
+document.getElementById("flexblok").style.display = "none";
+
+btn3.onclick = function(){
+  container.style.display = "none";   
+    document.getElementById("flexblok").style.display = "flex";
+}
+
 
 var term = {
   Canada:10,
